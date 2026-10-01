@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Top snooze bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,28 L58,28 A2,2 0 0,1 60,30 L48,30 A2,2 0 0,1 50,28 Z" />
+    <!-- Twin bells -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,34 C34,29 37,24 43,27 C44,28 45,30 45,33 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,34 C74,29 71,24 65,27 C64,28 63,30 63,33 Z" />
+    <!-- Clock legs -->
+    <path
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M38,72 L33,79 M70,72 L75,79" />
+    <!-- Clock outer body ring -->
+    <path
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-21,0a21,21 0 1,1 42,0a21,21 0 1,1 -42,0" />
+    <!-- Clock hands -->
+    <path
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,41" />
+    <path
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L44,60" />
+    <!-- Center pivot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+    <!-- Integrated voice sound-waves -->
+    <path
+        android:strokeWidth="2.4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M78,48 C81,51.5 81,56.5 78,60" />
+    <path
+        android:strokeWidth="2.4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M83,44 C87.5,49.5 87.5,58.5 83,64" />
+</vector>

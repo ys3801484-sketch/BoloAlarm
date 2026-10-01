@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Top snooze bar / handle in warm amber -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M50,28 L58,28 A2,2 0 0,1 60,30 L48,30 A2,2 0 0,1 50,28 Z" />
+
+    <!-- Twin minimalist alarm bell strikers at 10 and 2 o'clock -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M37,34 C34,29 37,24 43,27 C44,28 45,30 45,33 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M71,34 C74,29 71,24 65,27 C64,28 63,30 63,33 Z" />
+
+    <!-- Clock angled feet -->
+    <path
+        android:strokeWidth="3.2"
+        android:strokeColor="#CBD5E1"
+        android:strokeLineCap="round"
+        android:pathData="M38,72 L33,79 M70,72 L75,79" />
+
+    <!-- Outer clock bezel ring (deep indigo) -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#312E81"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-22,0a22,22 0 1,1 44,0a22,22 0 1,1 -44,0" />
+
+    <!-- Bright crisp clock face dial -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,54m-20.5,0a20.5,20.5 0 1,1 41,0a20.5,20.5 0 1,1 -41,0" />
+
+    <!-- Hour markers (12, 3, 6, 9) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M53.2,36 h1.6 v2.5 h-1.6 z M70,53.2 h2.5 v1.6 h-2.5 z M53.2,69.5 h1.6 v2.5 h-1.6 z M35.5,53.2 h2.5 v1.6 h-2.5 z" />
+
+    <!-- Clock minute hand pointing towards 12 (wake/reminder hour) -->
+    <path
+        android:strokeWidth="2.8"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,40" />
+
+    <!-- Clock hour hand pointing towards 8:00 (morning wake / breakfast) -->
+    <path
+        android:strokeWidth="3.0"
+        android:strokeColor="#0F172A"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L44,60" />
+
+    <!-- Center pivot cap -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,54m-2.6,0a2.6,2.6 0 1,1 5.2,0a2.6,2.6 0 1,1 -5.2,0" />
+
+    <!-- Distinctive voice sound-wave arcs on right ("Bolo" = speak / voice reminder) -->
+    <path
+        android:strokeWidth="2.4"
+        android:strokeColor="#06B6D4"
+        android:strokeLineCap="round"
+        android:pathData="M78,48 C81,51.5 81,56.5 78,60" />
+    <path
+        android:strokeWidth="2.4"
+        android:strokeColor="#06B6D4"
+        android:strokeLineCap="round"
+        android:pathData="M83,44 C87.5,49.5 87.5,58.5 83,64" />
+</vector>
